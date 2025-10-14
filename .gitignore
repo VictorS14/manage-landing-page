@@ -11,6 +11,10 @@ yarn.debug.log*
 yarn.error.log*
 npm-debug.log*
 
+README.md
+style-guide.md
+README-template.md
+
 # Environment and secrets
 .env
 .env.local
