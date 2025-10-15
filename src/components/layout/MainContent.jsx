@@ -1,6 +1,7 @@
 import { SectionIntroduction } from "./SectionIntroduction"
 import {SectionAbout} from "./SectionAbout"
 import { TipsOfManage } from "./TipsOfManage"
+import { SectionTestimonials } from "./SectionTestimonials"
 
 export const MainContent = () => {
   return (
@@ -8,6 +9,7 @@ export const MainContent = () => {
         <SectionIntroduction />
         <SectionAbout />
         <TipsOfManage />
+        <SectionTestimonials />
     </main>
   )
 }
