@@ -21,15 +21,16 @@ const tips = [
 
 
 export const TipsOfManage = () => {
+
   return (
-    <section className="flex flex-col gap-5">
+    <section className="flex flex-col gap-5 lg:w-160 lg:gap-10">
       {tips.map(({id, tipNumber, title, text}) => (
         <div key={id} className="flex flex-col gap-3">
-        <div className="flex items-center font-bold bg-orange-200 h-10 rounded-tl-full rounded-bl-full">
+        <div className="bg-orange-200 lg:bg-transparent gap-3 lg:gap-5 flex items-center font-bold h-10 rounded-tl-full rounded-bl-full">
           <div className="bg-orange-600 text-white w-15 h-full flex items-center justify-center rounded-full">{tipNumber}</div>
-          <h1 className="text-blue-950 font-bold self-center w-65 text-center">{title}</h1>  
+          <h1 className="text-blue-950 font-bold w-65">{title}</h1>  
         </div>
-        <p className="text-gray-500">{text}</p>
+        <p className="text-gray-500 lg:max-w-lg lg:ml-20">{text}</p>
       </div>  
       ))}
     </section>
