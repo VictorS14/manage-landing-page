@@ -6,7 +6,7 @@ import { CallToAction } from "./CallToAction"
 
 export const MainContent = () => {
   return (
-    <main className="w-full px-5 pt-3 flex flex-col gap-10 pb-5 items-center">
+    <main className="w-full max-w-7xl px-5 pt-3 flex flex-col gap-10 pb-5 items-center ">
         <SectionIntroduction />
         <SectionAbout />
         <TipsOfManage />

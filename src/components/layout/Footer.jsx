@@ -9,7 +9,7 @@ import logo from "../../assets/images/logo.svg"
 
 export const Footer = () => {
   return (
-    <div className="bg-gray-950">
+    <div className="bg-gray-950 w-full">
       <div className="flex flex-col items-center pt-5 pb-3 px-5 gap-8">
          <div className="flex items-center justify-center gap-3">
             <input

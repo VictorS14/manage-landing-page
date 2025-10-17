@@ -5,7 +5,7 @@ import { MainContent } from "./MainContent";
 
 export const AppContent = () => {
   return (
-    <div className="w-full min-h-screen bg-orange-50">
+    <div className="w-full min-h-screen bg-orange-50 flex flex-col items-center">
       <Header />
       <MainContent />
       <CallToAction />
