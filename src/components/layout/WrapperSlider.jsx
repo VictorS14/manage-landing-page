@@ -1,7 +1,7 @@
 
-export const WrapperSlider = ({children}) => {
+export const WrapperSlider = ({children, ...props}) => {
   return (
-    <div className="flex flex-col gap-8 items-center py-6">
+    <div className={props.className}>
       {children}
     </div>
   )
