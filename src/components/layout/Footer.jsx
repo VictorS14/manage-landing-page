@@ -9,9 +9,9 @@ import logo from "../../assets/images/logo.svg"
 
 export const Footer = () => {
   return (
-    <div className="bg-gray-950 w-full">
-      <div className="flex flex-col items-center pt-5 pb-3 px-5 gap-8">
-         <div className="flex items-center justify-center gap-3">
+    <div className="bg-gray-950 w-full lg:px-5 lg:py-5">
+      <div className=" flex flex-col items-center pt-5 pb-3 px-5 gap-8 lg:grid lg:grid-cols-3 lg:grid-rows-2 ">
+         <div className=" flex items-center justify-center gap-3">
             <input
             className="bg-white rounded-full text-sm pl-5 w-60 h-10 flex justify-center outline-none font-semibold" 
             type="text" 
@@ -24,7 +24,7 @@ export const Footer = () => {
             />
          </div>
 
-         <div className="w-full pt-5 px-5 pb-2 flex items-center justify-center">
+         <div className=" w-full pt-5 px-5 pb-2 flex items-center justify-center col-start-2 row-start-1 row-span-2">
             <ul className="grid grid-cols-2 gap-2 pl-5 w-85">
                <li className="text-white">Home</li>
                <li className="text-white">Carrers</li>
@@ -36,15 +36,15 @@ export const Footer = () => {
             </ul>
          </div>
 
-         <div className="flex items-center justify-center gap-8 w-full">
-            <img src={iconFacebook} alt="icon facebook" className="w-9"/>
-            <img src={iconYouTube} alt="icon YT"className="w-9" />
-            <img src={iconTwitter} alt="icon twitter" className="w-9"/>
-            <img src={iconPinterest} alt="icon pinterest" className="w-9"/>
-            <img src={iconInstagram} alt="icon instagram" className="w-9"/>
+         <div className=" flex items-center justify-center lg:justify-start gap-8 w-full">
+            <img src={iconFacebook} alt="icon facebook" className="w-9 lg:w-6"/>
+            <img src={iconYouTube} alt="icon YT"className="w-9 lg:w-6" />
+            <img src={iconTwitter} alt="icon twitter" className="w-9 lg:w-6"/>
+            <img src={iconPinterest} alt="icon pinterest" className="w-9 lg:w-6"/>
+            <img src={iconInstagram} alt="icon instagram" className="w-9 lg:w-6"/>
          </div>
 
-         <div>
+         <div className=" row-start-1">
             <img src={logo} alt="logo manage"/>
          </div>
 
