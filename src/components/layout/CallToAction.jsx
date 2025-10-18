@@ -2,9 +2,9 @@ import { Button } from "../ui/Button";
 
 export const CallToAction = () => {
   return (
-    <div className="w-full flex items-center justify-center min-h-94 px-5 mt-8 bg-orange-600">
-      <div className="min-h-94 flex flex-col items-center justify-center px-5  gap-8">
-        <h1 className="text-white text-center font-bold text-4xl">Simplify how your team works today</h1>
+    <div className="w-full flex items-center justify-center min-h-94 lg:min-h-50 px-5 lg:px-24 mt-8 bg-orange-600">
+      <div className="flex flex-col lg:flex-row lg:w-full lg:justify-between items-center justify-center px-5  gap-8">
+        <h1 className="text-white text-center lg:max-w-90 lg:text-start font-bold text-4xl">Simplify how your team works today.</h1>
         <Button
           text={"Get Started"}
           className={
