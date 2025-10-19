@@ -13,7 +13,7 @@ export const Footer = () => {
       <div className=" flex flex-col items-center pt-5 pb-3 px-5 gap-8 lg:grid lg:grid-cols-3 lg:grid-rows-2 ">
          <div className=" flex items-center justify-center gap-3">
             <input
-            className="bg-white rounded-full text-sm pl-5 w-60 h-10 flex justify-center outline-none font-semibold" 
+            className="bg-white rounded-full text-sm text-orange-600 pl-5 w-60 h-10 flex justify-center outline-none font-semibold" 
             type="text" 
             placeholder="Updates in your inbox..."/>
             <Button 
@@ -26,22 +26,22 @@ export const Footer = () => {
 
          <div className=" w-full pt-5 px-5 pb-2 flex items-center justify-center col-start-2 row-start-1 row-span-2">
             <ul className="grid grid-cols-2 gap-2 pl-5 w-85">
-               <li className="text-white">Home</li>
-               <li className="text-white">Carrers</li>
-               <li className="text-white">Pricing</li>
-               <li className="text-white">Community</li>
-               <li className="text-white">Products</li>
-               <li className="text-white">Privacy Policy</li>
-               <li className="text-white">About Us</li>
+               <li className="text-white hover:text-orange-600 cursor-pointer">Home</li>
+               <li className="text-white hover:text-orange-600 cursor-pointer">Carrers</li>
+               <li className="text-white hover:text-orange-600 cursor-pointer">Pricing</li>
+               <li className="text-white hover:text-orange-600 cursor-pointer">Community</li>
+               <li className="text-white hover:text-orange-600 cursor-pointer">Products</li>
+               <li className="text-white hover:text-orange-600 cursor-pointer">Privacy Policy</li>
+               <li className="text-white hover:text-orange-600 cursor-pointer">About Us</li>
             </ul>
          </div>
 
          <div className=" flex items-center justify-center lg:justify-start gap-8 w-full">
-            <img src={iconFacebook} alt="icon facebook" className="w-9 lg:w-6"/>
-            <img src={iconYouTube} alt="icon YT"className="w-9 lg:w-6" />
-            <img src={iconTwitter} alt="icon twitter" className="w-9 lg:w-6"/>
-            <img src={iconPinterest} alt="icon pinterest" className="w-9 lg:w-6"/>
-            <img src={iconInstagram} alt="icon instagram" className="w-9 lg:w-6"/>
+            <img src={iconFacebook} alt="icon facebook" className="w-9 lg:w-6 cursor-pointer"/>
+            <img src={iconYouTube} alt="icon YT"className="w-9 lg:w-6 cursor-pointer" />
+            <img src={iconTwitter} alt="icon twitter" className="w-9 lg:w-6 cursor-pointer"/>
+            <img src={iconPinterest} alt="icon pinterest" className="w-9 lg:w-6 cursor-pointer"/>
+            <img src={iconInstagram} alt="icon instagram" className="w-9 lg:w-6 cursor-pointer"/>
          </div>
 
          <div className=" row-start-1">
