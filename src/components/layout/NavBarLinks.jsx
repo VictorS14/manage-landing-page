@@ -1,6 +1,6 @@
-export const NavBarLinks = () => {
+export const NavBarLinks = ({...props}) => {
   return (
-    <ul className="w-full flex items-center justify-center gap-8">
+    <ul className={props.className}>
       <li className="navbar-links">Pricing</li>
       <li className="navbar-links">Products</li>
       <li className="navbar-links">About Us</li>
