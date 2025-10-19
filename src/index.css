@@ -4,3 +4,9 @@ html, body, #root {
     height: 100%;
 }
 
+@layer components {
+    .navbar-links {
+        @apply text-blue-950 cursor-pointer hover:text-gray-400 transition duration-150
+    }
+}
+
