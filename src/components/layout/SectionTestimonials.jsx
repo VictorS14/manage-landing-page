@@ -95,7 +95,7 @@ export const SectionTestimonials = () => {
       <Button
         text={"Get Started"}
         className={
-          "hidden lg:flex bg-orange-600 h-10 w-35 cursor-pointer rounded-full items-center justify-center text-white font-semibold shadow-[0px_8px_13px_1px_#FFB277]"
+          "hidden lg:flex bg-orange-600 hover:bg-orange-500 transition duration-150 h-10 w-35 cursor-pointer rounded-full items-center justify-center text-white font-semibold shadow-[0px_8px_13px_1px_#FFB277]"
         }
       />
     </section>

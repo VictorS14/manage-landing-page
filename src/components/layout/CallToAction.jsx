@@ -8,7 +8,7 @@ export const CallToAction = () => {
         <Button
           text={"Get Started"}
           className={
-            "bg-gray-50 h-10 w-35 rounded-full flex items-center justify-center text-orange-600 font-semibold"
+            "bg-orange-50 hover:bg-gray-200 transition duration-150 cursor-pointer h-10 w-35 rounded-full flex items-center justify-center text-orange-600 font-semibold"
           }
         />
       </div>

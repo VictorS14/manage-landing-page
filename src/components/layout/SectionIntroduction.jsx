@@ -19,7 +19,7 @@ export const SectionIntroduction = () => {
 
         <Button 
         text={"Get Started"}
-        className={"bg-orange-600 h-10 w-35 rounded-full flex items-center justify-center text-white font-semibold shadow-[0px_8px_13px_1px_#FFB277] md:cursor-pointer"}
+        className={"bg-orange-600 lg:hover:bg-orange-500 transition duration-150 h-10 w-35 rounded-full flex items-center justify-center text-white font-semibold shadow-[0px_8px_13px_1px_#FFB277] md:cursor-pointer"}
         />
       </div>
     </section>

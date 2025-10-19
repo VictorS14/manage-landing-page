@@ -18,7 +18,7 @@ export const Footer = () => {
             placeholder="Updates in your inbox..."/>
             <Button 
             className={
-            "bg-orange-600 h-10 w-20 rounded-full flex items-center justify-center text-white font-semibold"
+            "bg-orange-600 hover:bg-orange-300 transition duration-150 cursor-pointer h-10 w-20 rounded-full flex items-center justify-center text-white font-semibold"
           }
           text={"GO"}
             />
