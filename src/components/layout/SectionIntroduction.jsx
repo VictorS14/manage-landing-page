@@ -12,7 +12,7 @@ export const SectionIntroduction = () => {
           Bring everyone together to build better products.
         </h1>
 
-        <p className="text-center text-[min(6vw,18px)] text-gray-500 lg:max-w-88 lg:text-left">
+        <p className="text-center text-[min(6vw,18px)] text-gray-500 md:max-w-xl lg:max-w-88 lg:text-left">
           Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team
           goals in view.
         </p>
